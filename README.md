@@ -89,7 +89,7 @@ git push origin YourBranchName
 
 **11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**12.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
+**12.** **Congratulations!** You've made your first contribution to [**this repo**](https://github.com/4N1Z/Sorting-Searching-Algorithms)!! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the Sorting-Searching-Algorithms project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
