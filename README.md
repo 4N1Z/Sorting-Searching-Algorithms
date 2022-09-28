@@ -2,14 +2,19 @@
 
 # Sorting-Searching-Algorithms
 
+This repo is meant to contain the algorithms for searching and sorting algorithms in every language .As per your knowledge on the programming language of your interest you can contribute/ add the algorithms.
 
-This repo is meant to contain the algorithms for searching and sorting algorithms in every language .
+
+- These algorithms can be used to organize complicated data and make it easier to use as well as to understand. Furthermore, having an understanding of these algorithms and how they work is fundamental for a strong understanding the *concepts of Computer Science*
 
 
-# Need for this repository ? 
-- This repository is meant to be a one destination for all a programmer to refer to all the searching algorithms and sorting algortihms. 
-- This repository will contain the algorithms in all different programming languages.
-- Intention is to create a unified all in one place for all the sorting and searching algorithms.
+### <u>*Sorting Algorithms*</u>
+
+Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand .
+
+### <u>*Searching Algorithms*</u>
+Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
+
 
 
 ## Searching Algortihms
@@ -19,13 +24,26 @@ This repo is meant to contain the algorithms for searching and sorting algorithm
 ## Sorting Algorithms
 -
 
-# How to contribute ?
+
+# Need for this repository ? 
+- This repository is meant to be a one destination for all a programmer to refer to all the searching algorithms and sorting algortihms. 
+- This repository will contain the algorithms in all different programming languages.
+- Intention is to create a unified all in one place for all the sorting and searching algorithms.
+
+# How to contribute 🤔 ?
 
 1. Take a look at the existing Issues or create a new issue! 
 2. Fork the Repo. Then, create a branch for any issue that you are working on. Finally, commit your work.
 3. Before commiting make sure you are addding the algorithm in the correct folder. Incase a you are adding the algorithm in a new language make sure to create a new folder having the name of that language. 
 4. Create a Pull Request (PR), which will be promptly reviewed and given suggestions for improvements by the community.
 
+
+
+### ⛔ Points to be noted 📒🖊 :
+- The code must be added to the correct folder 
+> eg : If you are adding binary search in java, then you should go to folder _search_ / binary_search / then add the code.
+- The code must be named after the language the code is coded
+> eg: if the code is in java, then name your code as _*in_Java.java*_
 ---
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
