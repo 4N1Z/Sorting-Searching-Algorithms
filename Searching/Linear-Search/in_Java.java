@@ -9,8 +9,8 @@
 /*
  * 
  *  * LINEAR SEARCH -
-     * Start searching from the first element till you find the element in an aray
-     * and return the index.
+     * Start searching from the first element till you find the element in the array.
+     * return the index.
      * 
      * -if value doesnt exist then return -1.
      * -max comaprisons in the worst case will be 'N'(big-oh(N))
@@ -26,9 +26,9 @@
 
         for (int i = 0; i < arr.length; i++) {
             
-            if (target == arr[i]) {
+            if (target == arr[i]) {//if the index is found 
                 found = 1;
-                index = i+1 ;
+                index = i+1;//increase the index number by one since array index starts with 0
             }
         }
         if (found == 0)
