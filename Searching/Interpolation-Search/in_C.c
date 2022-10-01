@@ -1,5 +1,7 @@
 /* InterpolationSearch
+
 Algorithm 
+
 The rest of the Interpolation algorithm is the same except for the above partition logic. 
 Step1: In a loop, calculate the value of “pos” using the probe position formula. 
 Step2: If it is a match, return the index of the item, and exit. 
@@ -7,9 +9,15 @@ Step3: If the item is less than arr[pos], calculate the probe position of the le
 Step4: Repeat until a match is found or the sub-array reduces to zero.
 Below is the implementation of the algorithm. */
 
-/*Linear Search finds the element in O(n) time, Jump Search takes O(√ n) time and Binary Search takes O(log n) time. 
+/*
+The Interpolation Search is an improvement over Binary Search for instances, where the values in a sorted array are uniformly distributed.
+Interpolation constructs new data points within the range of a discrete set of known data points. Binary Search always goes to the middle element to check.
+On the other hand, interpolation search may go to different locations according to the value of the key being searched. 
+For example, if the value of the key is closer to the last element, interpolation search is likely to start search toward the end side.
+
 
 Time Complexity: O(log2(log2 n)) for the average case, and O(n) for the worst case 
+
 Auxiliary Space Complexity: O(1)
 */
 
