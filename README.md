@@ -19,10 +19,13 @@ Searching Algorithms are designed to check for an element or retrieve an element
 
 ## Searching Algortihms
 - [Binary Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Binary-Search)
+- [Jump Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Jump-Search) 
 - [Linear Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Linear-Search)
 
 ## Sorting Algorithms
--
+- [Bubble Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Bubble%20Sort)
+- [Insertion Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Insertion%20Sort)
+- [Merge Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Merge-Sort)
 
 
 # Need for this repository ? 
