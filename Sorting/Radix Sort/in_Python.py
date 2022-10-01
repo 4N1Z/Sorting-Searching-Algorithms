@@ -1,9 +1,9 @@
-#Time complexity =  O(d*(n+b))
+# Time complexity =  O(d*(n+b))
 # d = number of cycles
 # b = base value
 
-#Space Complexity = O(n+b)
-# two auxiliary arrays of size b (base) and of size n (number of elements),
+# Space Complexity = O(n+b)
+# two auxiliary arrays of size b (base) and of size n (number of elements)
 
 def countingSort(arr, exp1):
 
