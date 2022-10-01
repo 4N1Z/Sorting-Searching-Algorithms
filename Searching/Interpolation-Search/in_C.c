@@ -1,6 +1,23 @@
+/* InterpolationSearch
+Algorithm 
+The rest of the Interpolation algorithm is the same except for the above partition logic. 
+Step1: In a loop, calculate the value of “pos” using the probe position formula. 
+Step2: If it is a match, return the index of the item, and exit. 
+Step3: If the item is less than arr[pos], calculate the probe position of the left sub-array. Otherwise, calculate the same in the right sub-array. 
+Step4: Repeat until a match is found or the sub-array reduces to zero.
+Below is the implementation of the algorithm. */
+
+/*Linear Search finds the element in O(n) time, Jump Search takes O(√ n) time and Binary Search takes O(log n) time. 
+
+Time Complexity: O(log2(log2 n)) for the average case, and O(n) for the worst case 
+Auxiliary Space Complexity: O(1)
+*/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+
  
 #define MAX 200
  
