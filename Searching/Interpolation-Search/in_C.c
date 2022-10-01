@@ -27,7 +27,7 @@ Auxiliary Space Complexity: O(1)
 #include <stdlib.h>
 
  
-#define MAX 200
+
  
 int interpolation_search(int a[], int bottom, int top, int item) 
 {
@@ -47,12 +47,13 @@ int interpolation_search(int a[], int bottom, int top, int item)
  
 int main() 
 {
-	int arr[MAX];
+	
 	int i, num;
 	int item, pos;
-		
-	printf("\nEnter total elements (num< %d) : ", MAX);
+
+	printf("\nEnter total elements: ");
 	scanf("%d", &num);
+        int arr[num];
  
 	printf("Enter %d Elements : ", num);
 	for (i = 0; i < num; i++)
