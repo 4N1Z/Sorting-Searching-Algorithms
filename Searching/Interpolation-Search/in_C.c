@@ -51,9 +51,10 @@ int main()
 	int i, num;
 	int item, pos;
 
-	printf("\nEnter total elements: ");
+	printf("\nEnter total number of elements: ");
 	scanf("%d", &num);
         int arr[num];
+	
 	printf("Enter %d Elements : ", num);
 	for (i = 0; i < num; i++)
 		scanf("%d", &arr[i]);
