@@ -4,12 +4,12 @@
 
      -It is used to search in sorted array.
      -arr=[2,4,6,9,11,12,14,20,36,48]
-       to check whether 36 exist in arrar or not.
+       to check whether 36 exist in array or not.
      -in binary search, take the middle of the element;.
      -that is, divide the indices by 2
 
      Why binary search ??
-      -in the bst case, it only takes one step , that is its best  case complexity is constant(Doesnt matter time)
+      -in the bst case, it only takes one step , that is its best case complexity is constant(Doesn't matter time)
        big -0h(1)
       -In worst case, it take big-oh(log2(n)).
 
@@ -43,7 +43,7 @@ public class in_Java {
 
         while (start <= end) {
             // find the middle element
-            int mid = start + (end - start) / 2; // think
+            int mid = start + (end - start) / 2; // this is done because if we do start+end/2 then it may exceed the range of integer
 
             if (target < arr[mid]) {
                 end = mid - 1;
@@ -55,7 +55,7 @@ public class in_Java {
             }
         }
 
-        return -1; // if nothing is executed then not exist
+        return -1; // if nothing is executed then the number doesn't exist in the array
     }
 
 }
