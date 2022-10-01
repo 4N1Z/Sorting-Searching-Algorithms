@@ -54,7 +54,6 @@ int main()
 	printf("\nEnter total elements: ");
 	scanf("%d", &num);
         int arr[num];
- 
 	printf("Enter %d Elements : ", num);
 	for (i = 0; i < num; i++)
 		scanf("%d", &arr[i]);
