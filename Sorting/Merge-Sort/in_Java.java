@@ -1,4 +1,15 @@
 public class mergesort {
+   /*    What is merge sort?
+   Merge sort is the sorting technique that follows the divide and conquer approach.
+   he important part of the merge sort is the MERGE function. This function performs 
+   the merging of two sorted sub-arrays that are A[beg…mid] and A[mid+1…end], 
+   to build one sorted array A[beg…end]. So, the inputs of the MERGE function are A[], beg, mid, and end.
+   
+  Time Complexity
+
+Best Case   	 O(n*logn)
+Average Case	 O(n*logn)
+Worst Case	   O(n*logn)   */
    
         //sorting method (to do step1(divide) & step2(sort parts))
         public static void mergeSort(int arr[], int si, int ei) { 
@@ -45,6 +56,8 @@ public class mergesort {
                 arr[i] = temp[k];
             }
         }
+   
+   //print
     
         public static void printArr(int arr[]) {
             for(int i=0; i<arr.length; i++) {
@@ -52,6 +65,7 @@ public class mergesort {
             }
             System.out.println();
         }
+   //call a function
         public static void main(String args[]) {
             int arr[] = {6, 3, 9, 5, 2, 8};
             mergeSort(arr, 0, arr.length-1);
