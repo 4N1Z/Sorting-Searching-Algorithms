@@ -1,6 +1,10 @@
 import java.util.*;
 
 //Problem : Counting Sort
+//Counting sort is a sorting technique that is based on the keys between specific ranges. 
+//Best Case	O(n + k)
+//Average Case	O(n + k)
+//Worst Case	O(n + k)
 
 public class CountingSort {
     public static void countingSort(int arr[]) {
