@@ -2,15 +2,15 @@
 
 # Sorting-Searching-Algorithms
 
-This repo is meant to contain the algorithms for searching and sorting algorithms in every language .As per your knowledge on the programming language of your interest you can contribute/ add the algorithms.
+This repo is meant to contain the algorithms for searching and sorting algorithms in every language. As per your knowledge on the programming language of your interest you can contribute/ add the algorithms.
 
 
-- These algorithms can be used to organize complicated data and make it easier to use as well as to understand. Furthermore, having an understanding of these algorithms and how they work is fundamental for a strong understanding the *concepts of Computer Science*
+- These algorithms can be used to organize complicated data and make it easier to use as well as to understand. Furthermore, having an understanding of these algorithms and how they work is fundamental for a strong understanding of the *concepts of Computer Science*.
 
 
 ### <u>*Sorting Algorithms*</u>
 
-Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand .
+Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand.
 
 ### <u>*Searching Algorithms*</u>
 Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
@@ -29,7 +29,7 @@ Searching Algorithms are designed to check for an element or retrieve an element
 
 
 # Need for this repository ? 
-- This repository is meant to be a one destination for all a programmer to refer to all the searching algorithms and sorting algortihms. 
+- This repository is meant to be a one destination for the programmers to refer to all the searching algorithms and sorting algortihms. 
 - This repository will contain the algorithms in all different programming languages.
 - Intention is to create a unified all in one place for all the sorting and searching algorithms.
 
