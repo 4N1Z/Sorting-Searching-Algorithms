@@ -9,6 +9,7 @@ Time Complexity:
 Worst Case : O(∞) (since this algorithm has no upper bound)
 Average Case: O(n*n!)
 Best Case : O(n)(when array given is already sorted)
+Auxiliary Space: O(1)
 """
 from random import shuffle
 
