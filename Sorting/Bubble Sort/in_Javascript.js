@@ -9,36 +9,36 @@
  */
 
 const bubbleSort = (data, type = 'asc') => {
-	const currentList = [...data]
+  const currentList = [...data]
 
-	for (let i = 0; i < currentList.length; ++i) {
-		for (let j = i + 1; j < currentList.length; ++j) {
-			switch (type) {
-				case 'asc':
-					if (currentList[i] > currentList[j]) {
-						let temp
-						temp = currentList[i]
-						currentList[i] = currentList[j]
-						currentList[j] = temp
-					}
-					break
+  for (let i = 0; i < currentList.length; ++i) {
+    for (let j = i + 1; j < currentList.length; ++j) {
+      switch (type) {
+        case 'asc':
+          if (currentList[i] > currentList[j]) {
+            let temp
+            temp = currentList[i]
+            currentList[i] = currentList[j]
+            currentList[j] = temp
+          }
+          break
 
-				case 'desc':
-					if (currentList[i] < currentList[j]) {
-						let temp
-						temp = currentList[i]
-						currentList[i] = currentList[j]
-						currentList[j] = temp
-					}
-					break
+        case 'desc':
+          if (currentList[i] < currentList[j]) {
+            let temp
+            temp = currentList[i]
+            currentList[i] = currentList[j]
+            currentList[j] = temp
+          }
+          break
 
-				default:
-					return 'Type not valid'
-			}
-		}
-	}
+        default:
+          return 'Type not valid'
+      }
+    }
+  }
 
-	return currentList
+  return currentList
 }
 
 /* Example */
