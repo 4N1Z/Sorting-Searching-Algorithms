@@ -1,3 +1,26 @@
+/*
+Quick Sort
+* Based on Divide and conquer paradigm.
+* It is not inplace or stable sort.
+* It consumes releatively fewer resources during execution
+
+Divide and Conquer:
+1. Divide: It divides large array into small array e.g., A[p, r] is divided into A[p....q] & A[q+1....r] such that A[p...q] <= A[q+1....r]
+2. Conquer: These two sub arrays are sorted by recursive calls to quicksort.
+3. Combine: Since the subarrays are sorted inplace therefore no work is needed combine them as entire array is now sorted.
+
+Quicksort uses partition algorithm in which pivot element can be:
+1. First element
+2. Last element
+3. Random element
+4. Median of elments
+
+Space Complexity: IN BEST CASE & AVERAGE CASE: O(logn) and IN WORST CASE: O(n)
+
+Time Complexity: BEST CASE: O(nlogn); AVERAGE CASE: O(nlogn); WORST CASE: O(n2)
+
+*/
+
 // Program to perform the quick sort
 #include<iostream>
 
