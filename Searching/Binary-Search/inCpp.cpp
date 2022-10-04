@@ -4,6 +4,9 @@
     // So we recur for the right half.
     // Else (x is smaller) recur for the left half.
 
+    //  Time Complexity: O(log n)
+    //  Auxiliary Space: O(log n)
+
 
 #include <bits/stdc++.h>
 using namespace std;
