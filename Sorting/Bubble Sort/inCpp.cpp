@@ -2,6 +2,9 @@
  - Give the array as well as n , which is the length of the array.
  - call the function, by specifying the array and the length of the array.
  - This code sorts in ascending order 
+  
+  Time Complexity: O(N2)
+  Auxiliary Space: O(1)
 */
 
 #include <bits/stdc++.h>
