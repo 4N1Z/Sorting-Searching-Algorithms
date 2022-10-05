@@ -1,4 +1,3 @@
-package test;
 
 /*
 <<<<<<   Jump Search     >>>>>
