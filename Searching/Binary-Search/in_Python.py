@@ -2,6 +2,7 @@
 #Auxiliary Space: O(log n)
 
 
+
 def binarySearch(arr, l, r, x):
      
     # Check base case
