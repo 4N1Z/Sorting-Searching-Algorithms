@@ -5,6 +5,7 @@
 def binarySearch(arr, l, r, x):
      
     # Check base case
+    
     if r >= l:
  
         mid = l + (r - l) // 2
