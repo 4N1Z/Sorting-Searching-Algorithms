@@ -19,8 +19,18 @@ def linear_search(array, N, target):
   for i in range(0, N):
     if target == array[i]:
       return i
-    return -1
+  return -1
   
+""" Examples:
+"""
+array={1,4,24,8,2}
 N = len(array)
+target=10
+print(linear_search(array,N,target))
+
+""" Output:
+-1
+"""
+
 
   
