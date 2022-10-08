@@ -1,3 +1,19 @@
+//Fibonacci Search in CPP
+/*
+Time Complexity = O(log N)
+Space Complexity = O(N)
+
+
+Important Points:
+
+Work Only for Sorted Array
+1. Fibonacci Search divides given array into unequal parts.
+2. Binary Search uses a division operator to divide range. Fibonacci Search doesn’t use /, but uses + and -. 
+   The division operator may be costly on some CPUs.
+3. Fibonacci Search examines relatively closer elements in subsequent steps. So when the input array is big that
+   cannot fit in CPU cache or even in RAM, Fibonacci Search can be useful.
+*/
+
 
 #include <bits/stdc++.h>
 using namespace std;
