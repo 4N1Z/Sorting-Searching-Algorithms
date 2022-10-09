@@ -36,3 +36,12 @@ public class ExponentialSearch {
 		return Arrays.binarySearch(arr, i/2,  Math.min(i, n-1), x);
 	}
 }
+
+/*
+Time Complexity : O(Log n) 
+Auxiliary Space : The above implementation of Binary Search is recursive and requires O(Log n) space. With iterative Binary Search, we need only O(1) space.
+
+Applications of Exponential Search: 
+Exponential Binary Search is particularly useful for unbounded searches, where size of array is infinite. Please refer Unbounded Binary Search for an example.
+It works better than Binary Search for bounded arrays, and also when the element to be searched is closer to the first element.
+*/
