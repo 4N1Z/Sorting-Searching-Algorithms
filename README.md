@@ -15,15 +15,16 @@ Sorting algorithms are ways to organize a group of items from smallest to larges
 ### <u>*Searching Algorithms*</u>
 Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
-This repository contains the following algorithms in **mutiple languages** :
+This repository contains the following algorithms in **multiple languages** :
 
 
-## Searching Algortihms
+## Searching Algorithms
 - [Binary Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Binary-Search)
 - [Fibonacci Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Fibonacci%20Search)
 - [Interpolation Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Interpolation-Search)
 - [Jump Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Jump-Search) 
 - [Linear Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Linear-Search)
+- [Exponential Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Exponential-Search)
 
 
 ## Sorting Algorithms
@@ -39,7 +40,7 @@ This repository contains the following algorithms in **mutiple languages** :
 
 
 # Need for this repository ? 
-- This repository is meant to be a one destination for the programmers to refer to all the searching algorithms and sorting algortihms. 
+- This repository is meant to be a one destination for the programmers to refer to all the searching algorithms and sorting algorithms. 
 - This repository will contain the algorithms in all different programming languages.
 - Intention is to create a unified all in one place for all the sorting and searching algorithms.
 
