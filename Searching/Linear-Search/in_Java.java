@@ -18,7 +18,7 @@
      * the time complexity of linear search algorithm is big-oh(N) since in the worst case it will be doing big-oh(N) comparisons. 
  */
 
-
+import java.util.*;
  public class in_Java{
  
     //Code starts from here
@@ -38,4 +38,18 @@
         else
             System.out.println("Found at position : " + index);
     }   
+    public static void main(String[]args){
+        System.out.println("Input the Array Length");
+        Scanner in=new Scanner(System.in);
+        int in_p=in.nextInt();
+        int[] a=new int[in_p];
+        for(int i=0;i<in_p;i++){
+            Scanner in_a=new Scanner(System.in);
+            int in_pa=in.nextInt();
+            a[i]=in_pa;
+        }
+        Scanner x=new Scanner(System.in);
+        int target=x.nextInt();
+        linearSearch(a,target);
+    }
  }
