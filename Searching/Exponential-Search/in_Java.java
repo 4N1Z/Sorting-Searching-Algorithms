@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class ExponentialSearch {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		int arr[] = {2, 3, 4, 6, 10, 40};
 		int x = 4;
 		int result = exponentialSearch(arr, x);         
