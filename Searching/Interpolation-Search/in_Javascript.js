@@ -58,3 +58,16 @@ console.log("Searching for " + x + " in array: " + arr);
 if (index !== -1) console.log("Element Found at Index: " + index);
 else console.log("Element Not Found: " + index);
 console.log("\n");
+//-----------------------------------
+//EXAMPLE 3
+arr = [0, 4, 8, 8, 15, 18, 23, 31];
+len = arr.length;
+lo = 0;
+hi = len - 1;
+x = 16;
+index = interpolationSearch(arr, lo, hi, x);
+console.log("Searching for " + x + " in array: " + arr);
+if (index !== -1) console.log("Element Found at Index: " + index);
+else console.log("Element Not Found: " + index);
+console.log("\n");
+//-----------------------------------
