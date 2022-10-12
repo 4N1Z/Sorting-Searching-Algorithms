@@ -1,4 +1,6 @@
 // C++ Program for counting sort
+//time complexity : O(n+k)
+// space complexity : O(n+k)
 #include <bits/stdc++.h>
 #include <string.h>
 using namespace std;
