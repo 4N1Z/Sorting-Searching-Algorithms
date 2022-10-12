@@ -16,3 +16,21 @@
 // Step 6 − If data is smaller than middle, search in lower sub-list.
 // Step 7 − Repeat until match.
 //-----------------------------------
+//FUNCTION: Implements Interpolation Search
+function interpolationSearch(arr, lo, hi, x) {
+	let pos;
+	if (lo <= hi && x >= arr[lo] && x <= arr[hi]) {
+		pos = lo + Math.floor(((hi - lo) / (arr[hi] - arr[lo])) * (x - arr[lo]));
+		if (arr[pos] == x) return pos;
+		if (arr[pos] < x) return interpolationSearch(arr, pos + 1, hi, x);
+		if (arr[pos] > x) return interpolationSearch(arr, lo, pos - 1, x);
+	}
+	return -1;
+}
+//VARIABLE DECLARATIONS
+let arr = [];
+let len = 0;
+let lo = 0;
+let hi = 0;
+let x = 0;
+let index = -1;
