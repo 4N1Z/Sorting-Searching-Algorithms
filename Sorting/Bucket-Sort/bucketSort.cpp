@@ -1,5 +1,8 @@
 // C++ program to sort an
 // array using bucket sort
+// time complexity:  If we assume that insertion in a bucket takes O(1) time then steps 1 and 2 of the above algorithm clearly take O(n) time. The O(1) is easily possible if we use a linked list to represent a bucket (In the following code, C++ vector is used for simplicity). Step 4 also takes O(n) time as there will be n items in all buckets. 
+The main step to analyze is step 3. This step also takes O(n) time on average if all numbers are uniformly distributed 
+//space complexity: Space Complexity for bucket sort is O(n+k), where n = number of elements in the array, and k = number of buckets formed Space taken by each bucket is O(k), and inside each bucket, we have n elements scattered. Hence, the space complexity becomes O(n+k).
 #include <algorithm>
 #include <iostream>
 #include <vector>
