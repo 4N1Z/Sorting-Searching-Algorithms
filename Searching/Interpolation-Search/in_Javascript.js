@@ -34,3 +34,15 @@ let lo = 0;
 let hi = 0;
 let x = 0;
 let index = -1;
+//-----------------------------------
+//EXAMPLE 1
+arr = [10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47];
+len = arr.length;
+lo = 0;
+hi = len - 1;
+x = 18;
+index = interpolationSearch(arr, lo, hi, x);
+console.log("Searching for " + x + " in Array: " + arr);
+if (index !== -1) console.log("Element Found at Index: " + index);
+else console.log("Element Not Found: " + index);
+console.log("\n");
