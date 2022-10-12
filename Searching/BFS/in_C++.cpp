@@ -3,6 +3,8 @@ using namespace std;
 
 //BFS IN TREES
 //BFS also called LEVEL ORDER TRAVERSAL
+//Time Complexity - O(n)  where n is the number of nodes (as we are traversing each node once)
+//Space Complexity - O(n) 
 
 struct Node{
     int data;
