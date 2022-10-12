@@ -2,6 +2,8 @@
 using namespace std;
 
 //DFS in Trees
+//Time Complexity - O(n)  where n is the number of nodes (as we are traversing each node once)
+//Space Complexity - O(n) 
 
 struct Node{
     int data;
