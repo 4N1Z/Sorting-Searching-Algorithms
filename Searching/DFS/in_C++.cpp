@@ -3,12 +3,14 @@ using namespace std;
 
 //DFS in Trees
 
+// Here's what a node comprise -  [left | data | right]
+
 struct Node{
-    int data;
-    Node* left;
-    Node* right;
+    int data;       
+    Node* left;     // left pointer which gives left child of node
+    Node* right;    // right pointer which gives right child of node
     Node(int x){
-        data=x;
+        data=x;     // constructor to instantiate node and give a value (here integer value)
         left=NULL;
         right=NULL;
     }
@@ -41,6 +43,19 @@ bool dfsIterative(Node* root,int x){
 
 
 int main(){
+    
+    /* TREE VISUAL REPRESENTATION ->
+               10
+            /       \
+           /         \
+        20              30
+      /    \          /    \
+    40      50      60      70
+       \
+        80
+        
+        */
+    
     Node* root=new Node(10);
     Node* first=new Node(20);
     Node* second=new Node(30);
