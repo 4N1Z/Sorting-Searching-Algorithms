@@ -4,40 +4,55 @@ using namespace std;
 //BFS IN TREES
 //BFS also called LEVEL ORDER TRAVERSAL
 
+// Here's what a node comprise -  [left | data | right]
+
 struct Node{
-    int data;
-    Node* left;
-    Node* right;
+    int data;       
+    Node* left;     // left pointer which gives left child of node
+    Node* right;    // right pointer which gives right child of node
     Node(int x){
-        data=x;
+        data=x;     // constructor to instantiate node and give a value (here integer value)
         left=NULL;
         right=NULL;
     }
 };
 
 bool bfs(Node* root,int x){
-    queue<Node*> q;
+    queue<Node*> q;     
     q.push(root);
-    while(!q.empty()){
+    while(!q.empty()){      // traverse till queue is not empty
         int n=q.size();
-        while(n--){
+        while(n--){         // traverse in a level order way
             Node* front=q.front();
             q.pop();
             if(front->data==x){
                 return true;
             }
-            if(front->left){
+            if(front->left){    // if current node has left child
                 q.push(front->left);
             }
-            if(front->right){
+            if(front->right){   // if current node has right child
                 q.push(front->right);
             }
         }
     }
-    return false;
+    return false;       // if not found
 }
 
 int main(){
+    
+/* TREE VISUAL REPRESENTATION ->
+               10
+            /       \
+           /         \
+        20              30
+      /    \          /    \
+    40      50      60      70
+       \
+        80
+        
+        */
+    
     Node* root=new Node(10);
     Node* first=new Node(20);
     Node* second=new Node(30);
