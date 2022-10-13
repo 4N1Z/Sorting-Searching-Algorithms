@@ -22,7 +22,7 @@ bool dfsRecursive(Node* root,int x){
     bool left=dfsRecursive(root->left,x);
     bool check= root->data==x;
     bool right=dfsRecursive(root->right,x);
-    return check||left||right;
+    return check||left||right;      // checking if node is found in left subpart or right subpart or the given node is req.
 }
 
 bool dfsIterative(Node* root,int x){
