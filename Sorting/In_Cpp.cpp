@@ -1,5 +1,20 @@
 // C++ program for implementation of Heap Sort
 
+
+/* Heap Sort is a popular and efficient sorting algorithm in computer programming. Learning how to write the heap sort algorithm requires knowledge
+of two types of data structures - arrays and trees. We basically reprsent our array in form of binary tree where root is at index 0 and has two children at 2*i+1 and
+2*i+2, we modify our array in such a way that at root there is always the largest element present(max heap), then in our array we insert this largest element
+at last position and delete this top element i.e. root element from the heap and using heapify function on rest of the array and it again converts the rest of the array
+to max heap and we repeat this process till all the elements are deleted from the heap and we got sorted array. 
+
+Time Complexity :-
+Best	O(nlog n)
+Worst	O(nlog n)
+Average	O(nlog n)
+
+Space Complexity :-
+O(1)
+
 #include <iostream>
 using namespace std;
 
