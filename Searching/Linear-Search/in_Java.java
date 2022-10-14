@@ -38,4 +38,24 @@
         else
             System.out.println("Found at position : " + index);
     }   
+  
+   public static void main(String a[]){    
+        int[] arr = {10,58,97,50,65,22};    
+        int key = 50;    // need to find 50 in above array 'arr'
+    
+        // calling our linear search function
+        linearSearch(arr, key);   
+    
+    /*  Representation of how it works -
+    
+        [ 10  ,  58  ,  97  ,  50  ,  65  ,  22 ]
+  i=0 ->  ⬆️                                           => arr[i] != key , so i++
+  i=1 ->         ⬆️                                    => arr[i] != key , so i++
+  i=2 ->                ⬆️                             => arr[i] != key , so i++
+  i=3 ->                       ⬆️                      => here arr[i] == key , so we found the target in our array
+  
+  */
+    
+    }  
+  
  }
