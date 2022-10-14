@@ -1,7 +1,17 @@
 '''
-Name:- JANUMALA AKHILENDRA
-LANGUAGE:-PYTHON
-JUMP SEARCH
+<<<<<<   Jump Search     >>>>>
+EXPLAINATION
+
+--->  Like Binary Search, Jump Search is a searching algorithm for sorted arrays.
+--->  The basic idea is to check fewer elements (than linear search) by jumping ahead by fixed steps or skipping some elements in place of searching all elements.
+--->  For example, suppose we have an array arr[] of size n and a block (to be jumped) of size m.
+--->  Then we search in the indexes arr[0], arr[m],
+      arr[2m]…..arr[km] and so on. Once we find the interval (arr[km] < x < arr[(k+1)m]), 
+      we perform a linear search operation from the index km to find the element x.
+
+Time Complexity : O(√n) 
+Auxiliary Space : O(1)
+
 '''
 
 import math
