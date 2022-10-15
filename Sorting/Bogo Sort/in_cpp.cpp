@@ -1,4 +1,25 @@
 // C++ implementation of Bogo Sort
+// Bogo Sort -:
+// BogoSort also known as permutation sort, stupid sort, slow sort, shotgun sort or monkey sort is a particularly ineffective algorithm one person can ever imagine. It is based on generate and test paradigm. The algorithm successively generates permutations of its input until it finds one that is sorted.(Wiki) For example, if bogosort is used to sort a deck of cards, it would consist of checking if the deck were in order, and if it were not, one would throw the deck into the air, pick the cards up at random, and repeat the process until the deck is sorted.
+
+// Bogo Sort Algorithm
+// Bogo sort uses 2 steps to sort elements of the array.
+// 1. It throws the number randomly.
+// 2. Check whether the number is sorted or not.
+// 3. If sorted then return the sorted array.
+// 4. Otherwise it again generate another randomization of the numbers until the array is sorted.
+
+// Complexity ==>>
+
+// Time Complexity: 
+
+// Worst Case : O(∞) (since this algorithm has no upper bound)
+// Average Case: O(n*n!)
+// Best Case : O(n)(when array given is already sorted)
+
+// Space Complexity: O(1)
+
+// Code ==>
 #include <bits/stdc++.h>
 using namespace std;
 
