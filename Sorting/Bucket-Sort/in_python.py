@@ -1,3 +1,19 @@
+'''Bucket sort is a sorting algorithm that separate the elements into multiple groups said to be buckets. 
+Elements in bucket sort are first uniformly divided into groups called buckets, and then they are sorted by any other sorting algorithm. 
+After that, elements are gathered in a sorted manner.'''
+
+'''
+    Time Complexity	 
+    Best	O(n+k)
+    Average	O(n+k)
+    Worst	O(n2)
+    Space Complexity O(n*k)
+    Stable Yes
+'''
+    
+    
+#Bucket sort in Python
+    
 def bucket_sort(input_list):
     # Find maximum value in the list and use length of the list to determine which value in the list goes into which bucket 
     max_value = max(input_list)
