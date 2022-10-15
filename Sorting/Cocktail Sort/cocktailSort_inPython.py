@@ -1,4 +1,11 @@
-# Cocktail sort traverses the array in both directions alternatively. This algorithm traverses in forward as well as backward direction in one iteration. So it is like a bi-directional bubble sort.
+#Language- Python
+# Cocktail sort traverses the array in both directions alternatively. This algorithm traverses in forward as well as backward direction in one iteration. 
+#So it is like a bi-directional bubble sort.
+
+#The first stage loops through the array from left to right, just like the Bubble Sort. During the loop, adjacent items are compared and if the value on the left is 
+#greater than the value on the right, then values are swapped. At the end of the first iteration, the largest number will reside at the end of the array.
+#The second stage loops through the array in opposite direction- starting from the item just before the most recently sorted item, and moving back to the start 
+#of the array. Here also, adjacent items are compared and are swapped if required.
 
 # Time Complexity
 #     Best Case--	O(n)
