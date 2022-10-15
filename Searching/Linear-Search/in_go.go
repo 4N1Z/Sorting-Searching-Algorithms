@@ -1,3 +1,19 @@
+/* 
+Problem Statement:
+Go language code to linearly search x element in slice A. 
+If x is present then return its location, 
+otherwise return -1
+
+Approach:
+Starting from first element of array keep checking the element you need, if x element available
+then return that element otherwise keep checking till the end of the array. If element not found and 
+its end of array then return -1.
+
+Time Complexity = O(N)
+Space Complexity = O(1)
+*/
+
+
 package main
 import "fmt"
 
