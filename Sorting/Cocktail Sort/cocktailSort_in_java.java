@@ -1,3 +1,4 @@
+//Language- Java
 /*Cocktail sort traverses the array in both directions alternatively. This algorithm traverses in forward as well as backward direction in one iteration. 
 So it is like a bi-directional bubble sort.*/
 
