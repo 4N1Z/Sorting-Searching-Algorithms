@@ -38,6 +38,84 @@ bool bfs(Node* root,int x){
 }
 
 int main(){
+    /*
+        VISUAL REPRESENTATION OF example TREE
+        
+                  10
+               /      \
+              /        \
+             /          \
+            20          30
+          /    \      /    \ 
+         /      \    /      \    
+        40      50  60      70
+         \
+          \
+          80
+          
+          How Level Order works ?
+          
+          First we are at root node as shown-
+          ➡️     10
+               /      \
+              /        \
+             /          \
+            20          30
+          /    \      /    \ 
+         /      \    /      \    
+        40      50  60      70
+         \
+          \
+          80
+          
+          Add the elements of this level in array [[10]]
+          then visit next level 
+          
+                  10
+               /      \
+              /        \
+             /          \
+      ➡️   20          30
+          /    \      /    \ 
+         /      \    /      \    
+        40      50  60      70
+         \
+          \
+          80
+         Add the elements of this level in array [[10] , [20,30]]
+         then visit next level  
+          
+                  10
+               /      \
+              /        \
+             /          \
+            20          30
+          /    \      /    \ 
+         /      \    /      \    
+    ➡️  40      50  60      70
+         \
+          \
+          80
+        Add the elements of this level in array [[10] , [20,30] , [40,50,60,70]]
+        then visit next level  
+        
+                  10
+               /      \
+              /        \
+             /          \
+            20          30
+          /    \      /    \ 
+         /      \    /      \    
+        40      50  60      70
+         \
+          \
+    ➡️    80
+        Add the elements of this level in array [[10] , [20,30] , [40,50,60,70] , [80]]
+        then visit next level  , as this was the last level , now our queue will become empty and loop will break;
+        Hurrah! we got the BFS traversal of Binary Tree 
+        
+    */
+    
     Node* root=new Node(10);
     Node* first=new Node(20);
     Node* second=new Node(30);
