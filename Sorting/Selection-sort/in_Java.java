@@ -24,26 +24,24 @@ here is the code in java :-
 
 import java.util.Arrays;
 
-public class Selection {
+public class Main {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 4, 1, 2};
-        selection(arr);
-        System.out.println(Arrays.toString(arr));
-    }
-    static void selection(int[] arr){
-        for (int i = 0; i < arr.length; i++) {
-            int last = arr.length-1 -i;
-
-            int max = 0;
-            for (int j = 0; j < arr.length - i; j++) {
-                if(arr[max] < arr[j]){
-                    max = j;
-                }
-            }
-
-            int temp = arr[last];
-            arr[last] = arr[max];
-            arr[max] = temp;
-        }
-    }
+		int[] a={14,33,27,35,10};
+		int t;
+		for(int i=0;i<4;i++){
+		    int min=i;
+		    for(int j=i+1;j<5;j++){
+		        if(a[j]<a[min]){
+		            min=j;
+		        }
+		    }
+		    t=a[i];
+		    a[i]=a[min];
+		    a[min]=t;
+		}
+		System.out.print("sorting :");
+		for(int i=0;i<5;i++){
+		    System.out.print(a[i]+" ");
+		}
+	}
 }
