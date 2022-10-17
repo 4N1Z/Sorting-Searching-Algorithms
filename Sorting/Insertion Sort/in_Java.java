@@ -10,25 +10,15 @@ public class in_Java {
 
 
     static void insertion(int arr[]) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j > 0; j--) {
-                if (arr[j] < arr[j - 1]) {
-                    // swap
-                    swaparray(arr, j, j - 1);
-                } else {
-                    break;
-                }
-            }
-        }
+        int ele,j;
+		for(int i=1;i<arr.length;i++){
+		    ele=a[i];
+		    j=i-1;
+		    while(j>=0&&a[j]>ele){
+		        a[j+1]=a[j];
+		        j--;
+		    }
+		    a[j+1]=ele;
+		}
     }
-
-    // Function to swap array
-    static void swaparray(int[] arr, int first, int second) {
-
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
-
-    }
-
-}
+}   
