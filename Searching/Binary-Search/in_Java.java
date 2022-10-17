@@ -38,18 +38,18 @@ public class in_Java {
 
     // Code from here
     static int binarysearch(int arr[], int target) {
-        int start = 0;
-        int end = arr.length - 1;
+        int s = 0;
+        int e = arr.length - 1;
 
-        while (start <= end) {
+        while (s <= e) {
             // find the middle element
-            int mid = start + (end - start) / 2; // this is done because if we do start+end/2 then it may exceed the range of integer
+            int mid = s + (e - s) / 2; // this is done because if we do start+end/2 then it may exceed the range of integer
 
             if (target < arr[mid]) {
-                end = mid - 1;
+                e = mid - 1;
 
             } else if (target > arr[mid]) {
-                start = mid + 1;
+                s = mid + 1;
             } else {
                 return mid; // ans
             }
