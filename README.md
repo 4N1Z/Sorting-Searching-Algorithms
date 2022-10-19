@@ -25,7 +25,8 @@ This repository contains the following algorithms in **multiple languages** :
 - [Jump Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Jump-Search) 
 - [Linear Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Linear-Search)
 - [Exponential Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Exponential-Search)
-
+- [DFS](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/DFS)
+- [BFS](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/BFS)
 
 ## Sorting Algorithms
 - [Bogo Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Bogo%20Sort)
