@@ -1,9 +1,20 @@
+// Algorithm is based on the idea to sort array using minimum sub arrays reversals.
+// Unlike tranditional sorting algorithms it is not a comparison based sorting algorithm.
+
+// no. of flips O(n) {actually its 2n-3}
+
+//worst case : O(n2) {when array has alternately arranged short and large nos.} 
+//Avg case : O(n2)
+//Best case : O(n)
+//Space complexity : O(1)
+//Inplace : yes
+//stable : no
+
 
 #include <bits/stdc++.h>
 using namespace std;
 
-
-//functinon to find maximum in array
+//functinon to find maximum element in the arrays's index
 int maximum(int *arr, int i)
 {
     int max=0;
@@ -26,9 +37,7 @@ void reversal(int *arr, int n)
     }
 }
 
-// idea is to sort using reversal of sub arrays O(n^2) 
-// no. of flips O(n)
-// USE:- instead of comparison need to find sorted array in min possible reversals
+// the pancake sort
 void pancakeSort(int *arr, int n)
 {
     int maxm;
@@ -44,6 +53,7 @@ void pancakeSort(int *arr, int n)
     }
 }
 
+//a function to display the output array
 void displayArray(int *arr, int n)
 {
     for(int i=0; i<n; i++)
@@ -55,7 +65,7 @@ void displayArray(int *arr, int n)
 
 //main function
 int main(){
-    int arr[] = { 5, 1, 4, 2, 8};
+    int arr[] = { 9, 1, 5, 2, 8};
     int N = sizeof(arr) / sizeof(arr[0]);
     pancakeSort(arr, N);
     cout << "The Sorted array: \n";
