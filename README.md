@@ -39,6 +39,7 @@ This repository contains the following algorithms in **multiple languages** :
 - [Selection Soort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting)
 - [Count Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/countsort)
 - [Heap Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Heap%20Sort)
+- [Cocktail Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Cocktail%20Sort)
 
 
 # Need for this repository ? 
