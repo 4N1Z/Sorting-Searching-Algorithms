@@ -1,6 +1,6 @@
 ---
 name: New code added
-about: Describe this issue template's purpose here.
+about: Describe the issue that you want to resolve.
 title: ''
 labels: ''
 assignees: ''
