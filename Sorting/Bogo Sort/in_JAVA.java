@@ -1,3 +1,8 @@
+// Time Complexity: 
+// Worst Case : O( ∞ )
+// Average Case: O( n * n! )
+// Best Case : O( n )
+
 import java.util.Scanner;
 import java.util.Arrays;
 
