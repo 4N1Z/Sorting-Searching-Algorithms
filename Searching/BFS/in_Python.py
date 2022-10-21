@@ -6,8 +6,8 @@
  #Insert all the unvisited neighbours of the vertex into the queue.
 
 
- #Time Complexity: O(V+E), where V is the number of nodes and E is the number of edges.
- #Auxiliary Space: O(V)
+ #Time Complexity: O(n+E), where n is the number of nodes and E is the number of edges.
+ #Auxiliary Space: O(n)
 
  #BFS algorithm in Python
 
