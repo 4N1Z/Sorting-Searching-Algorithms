@@ -1,5 +1,5 @@
 main() {
-  print(insertionSort([8,9, 4, 2, 6,10,12]));
+  print(insertionSort([8,9, 4, 2, 6,10,12,1]));
 }
 
 List<int> insertionSort(List<int> list) {
