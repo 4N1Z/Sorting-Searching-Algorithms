@@ -1,3 +1,6 @@
+#Time COmplexity - O(n) where n if the number of vertices
+#or sometimes considered as O(n+e) where e is the number if edges 
+#Space Complexity - O(n) or O(n+e)
 # Python3 Program for BFS traversal
 from collections import defaultdict
 
