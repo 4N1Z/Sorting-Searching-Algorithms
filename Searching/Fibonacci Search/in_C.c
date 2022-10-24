@@ -1,3 +1,5 @@
+//TIME COMPLEXITY - O(LOGN)
+//SPACE COMPLEXITY - O(1)
 #include <stdio.h>
 
 //function to find minimum of two elements
