@@ -1,5 +1,6 @@
 //Time Complexity - O(logN)
 //Space Complexity -  O(1)
+//main
 #include <stdio.h>
 
 //function to find minimum of two elements
