@@ -30,12 +30,9 @@ void merge(int array[], int const left, int const mid,
 	for (auto j = 0; j < subArrayTwo; j++)
 		rightArray[j] = array[mid + 1 + j];
 
-	auto indexOfSubArrayOne
-		= 0,
-		indexOfSubArrayTwo
-		= 0;
-	int indexOfMergedArray
-		= left;
+	auto indexOfSubArrayOne = 0,
+		indexOfSubArrayTwo = 0;
+	int indexOfMergedArray = left;
 
 	while (indexOfSubArrayOne < subArrayOne
 		&& indexOfSubArrayTwo < subArrayTwo) {
