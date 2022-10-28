@@ -22,7 +22,7 @@ Step 5: Once all subsets have been combined, the list should be in the correct o
 ![image](https://miro.medium.com/max/828/1*KKOLPjSopMYlHi0dvwb-3Q.png)<br/>
 
 **``Merge Sort Algorithm Example``**
--The array has initial sequence as 5,2,4,7,1,3,2,6.
+<br/>-The array has initial sequence as 5,2,4,7,1,3,2,6.
 -This array is divided into two sub-arrays (5,2,4,7) and (1,3,2,6). Then again these two sub-arrays are divided into (5,2),(4,7),(1,3), and (2,6). Now these four sub-arrays are divided into eight sub-arrays (5),(2),(4),(7),(1),(3),(2), and (6).
 -As a sub-array with a single element is already sorted hence we can say that all the eight sub-arrays are already sorted.
 -Now Merge procedure combines these sub-arrays. Initially (5) and (2),(4) and (7),(1) and (3),(2) and (6) are combined to form (2,5),(4,7),(1,3), and (2,6). These four sub-arrays after merge forms (2,4,5,7) and (1,2,3,6). Finally these two sub-array form original sorted array (1,2,2,3,4,5,6,7)
