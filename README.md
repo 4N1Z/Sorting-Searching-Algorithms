@@ -15,11 +15,11 @@ Sorting algorithms are ways to organize a group of items from smallest to larges
 ### <u>*Searching Algorithms*</u>
 Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
-This repository contains the following algorithms in *****multiple languages***** :
+This repository contains the following algorithms in **multiple languages** :
 
 
 ## Searching Algorithms
-- [Binary Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Binary-Search)
+- Binary Search(https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Binary-Search)
 - [Fibonacci Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Fibonacci%20Search)
 - [Interpolation Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Interpolation-Search)
 - [Jump Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Jump-Search) 
