@@ -1,6 +1,6 @@
 ![Searching and sortinng](https://user-images.githubusercontent.com/91843271/191082254-748a2062-70a5-41b5-80fa-ed0d8681ecb4.png)
 
-# <u>*Sorting-Searching-Algorithms*</u>
+# Sorting-Searching-Algorithms
 
 This repo is meant to contain the algorithms for searching and sorting algorithms in every language. As per your knowledge on the programming language of your interest you can contribute/ add the algorithms.
 
@@ -8,7 +8,7 @@ This repo is meant to contain the algorithms for searching and sorting algorithm
 - These algorithms can be used to organize complicated data and make it easier to use as well as to understand. Furthermore, having an understanding of these algorithms and how they work is fundamental for a strong understanding of the *concepts of Computer Science*.
 
 
-### <u>*Sorting Algorithms*</u>
+### Sorting Algorithms*
 
 Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand.
 
