@@ -8,7 +8,7 @@ This repo is meant to contain the algorithms for searching and sorting algorithm
 - These algorithms can be used to organize complicated data and make it easier to use as well as to understand. Furthermore, having an understanding of these algorithms and how they work is fundamental for a strong understanding of the *concepts of Computer Science*.
 
 
-### Sorting Algorithms
+### *Sorting Algorithms*
 
 Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand.
 
