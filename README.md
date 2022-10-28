@@ -12,7 +12,7 @@ This repo is meant to contain the algorithms for searching and sorting algorithm
 
 Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand.
 
-### <u>*Searching Algorithms*</u>
+### <u>Searching Algorithms</u>
 Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
 This repository contains the following algorithms in **multiple languages** :
