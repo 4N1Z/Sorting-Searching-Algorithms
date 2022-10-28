@@ -1,6 +1,6 @@
 ![Searching and sortinng](https://user-images.githubusercontent.com/91843271/191082254-748a2062-70a5-41b5-80fa-ed0d8681ecb4.png)
 
-# Sorting-Searching-Algorithms
+# <u>Sorting-Searching-Algorithms</u>
 
 This repo is meant to contain the algorithms for searching and sorting algorithms in every language. As per your knowledge on the programming language of your interest you can contribute/ add the algorithms.
 
