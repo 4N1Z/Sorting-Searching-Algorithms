@@ -6,7 +6,7 @@ A merge sort is quicker and more efficient than a bubble sort when using longer 
 
 ## Working
 ![video](https://bournetocode.com/projects/GCSE_Computing_Fundamentals/pages/img/merge_sort_ani.gif)<br/>
-**The following diagram explains the working of the merge procedure:**<br/>
+### The following diagram explains the working of the merge procedure:<br/>
 ![image](https://miro.medium.com/max/828/1*cFSX2SOwZ5ZN4keqHmX00A.png)
 
 ## Algorithm
