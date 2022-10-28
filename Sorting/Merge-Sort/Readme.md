@@ -32,6 +32,6 @@ A merge sort is quicker and more efficient than a bubble sort when using longer 
 
 Our algorithm repeats until the merging procedure completes resulting in the sorted array.
 
-**NOTE**</br>
+**NOTE**<br>
 When the two sorted sub-arrays are merged into a single array, it preserves the original order as we check for ‘≤’ in the merge procedure.
 **``Hence the Merge sort algorithm is stable.``**
