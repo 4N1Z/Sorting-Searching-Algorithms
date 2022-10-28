@@ -19,7 +19,7 @@ This repository contains the following algorithms in **multiple languages** :
 
 
 ## Searching Algorithms
-- Binary Search
+- [Binary Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Binary-Search)
 - [Fibonacci Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Fibonacci%20Search)
 - [Interpolation Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Interpolation-Search)
 - [Jump Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Jump-Search) 
