@@ -22,7 +22,7 @@ A heap(nearly complete binary tree) is called a min-heap when the parent node is
 - As the parent node may have shifted down, we have to recursively heapify the left or right subtrees to maintain the max-heap property.
 
 
-** The following diagram explains the working of the heapify procedure:**
+**The following diagram explains the working of the heapify procedure:**
 
 consider the node at index i=1 which violates the max-heap property:
 ![image](https://miro.medium.com/max/828/1*PgI5y2OIcg2FFHNTdjEyWA.png)<br/>
