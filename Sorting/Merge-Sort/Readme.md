@@ -22,7 +22,7 @@ A merge sort is quicker and more efficient than a bubble sort when using longer 
 **Worst and Best Case Time Complexity:** θ(nlogn)
 <br/>**Space Complexity:** O(n)
 
-**``Merge Sort Algorithm Example``**<br/>
+### ``Merge Sort Algorithm Example``<br/>
 
 ![image](https://miro.medium.com/max/828/1*KKOLPjSopMYlHi0dvwb-3Q.png)<br/>
 - The array has initial sequence as 5,2,4,7,1,3,2,6.<br/>
