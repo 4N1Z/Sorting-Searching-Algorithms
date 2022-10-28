@@ -19,15 +19,14 @@ A heap(nearly complete binary tree) is called a min-heap when the parent node is
 - When the maxHeapify method is called with a node having index ‘i’ then the node is compared with its left and right child. The largest node among the parent node, left and right children nodes are found and the largest node gets swapped with the parent node.
 - As the parent node may have shifted down, we have to recursively heapify the left or right subtrees to maintain the max-heap property.
 
-consider the node at index i=1 which violates the max-heap property:
-![image](https://miro.medium.com/max/828/1*PgI5y2OIcg2FFHNTdjEyWA.png)<br/>
-### The following diagram explains the working of the heapify procedure:<br/>
+
+** The following diagram explains the working of the heapify procedure:**
+
 consider the node at index i=1 which violates the max-heap property:
 ![image](https://miro.medium.com/max/828/1*PgI5y2OIcg2FFHNTdjEyWA.png)<br/>
 
 ## Algorithm
 
-![image](http://miftyisbored.com/wp-content/uploads/2015/01/Merge-sort-analysis.jpg)<br/>
 
 ### 1. Build a max heap from the given array.
 
