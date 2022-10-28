@@ -7,10 +7,10 @@ The (binary) heap data structure is an array object that we can view as a nearly
 Heap has two different representations:
 
 **Max-heap**<br>
-A heap(nearly complete binary tree) is called a max heap when the parent node is greater(or equal) than its left and right child nodes.
-``In max heap largets element is stored at the root of the binary tree.``
+A heap(nearly complete binary tree) is called a max heap when the parent node is greater(or equal) than its left and right child nodes.<br>
+``In max heap largets element is stored at the root of the binary tree.``<br>
 **Min-heap**<br>
-A heap(nearly complete binary tree) is called a min-heap when the parent node is smaller(or equal) than its left and right child nodes.
+A heap(nearly complete binary tree) is called a min-heap when the parent node is smaller(or equal) than its left and right child nodes.<br/>
 ``In min heap smallest element is stored at the root of the binary tree.``
 ![image](https://miro.medium.com/max/828/1*02r6G-ho8DPnfiaOIHA2OA.png)
 ## Working
