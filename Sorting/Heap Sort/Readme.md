@@ -30,19 +30,19 @@ consider the node at index i=1 which violates the max-heap property:
 ## Algorithm
 
 
-### 1. Build a max heap from the given array.
+**1. Build a max heap from the given array.**
 
-### 2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of the heap by 1. Finally, heapify the root of the tree.
+**2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of the heap by 1. Finally, heapify the root of the tree.**
 
-### 3. Now repeat step 2 till the size of the heap is greater than 1.
+**3. Now repeat step 2 till the size of the heap is greater than 1.**
 
 **Worst and Best Case Time Complexity:** O(nlogn)
-<br/>**Space Complexity:** O(n)
 
 ### ``Heap Sort Algorithm Example``<br/>
 
  we start checking the max heap property from the node which has at least one child and calling the maxHeapify method for each such node for maintaining the max-heap property.
 **Building a max heap example:**
+
 ![image](https://miro.medium.com/max/828/1*6g4hDPjFz4aEAx6N2ntiZQ.png)<br/>
 Here, the loop initialization started with ((length of array/2) — 1), and afterward for each node maxHeapify method is called for maintaining max heap property.
 
