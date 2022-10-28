@@ -1,4 +1,20 @@
+//See how this algo works--
+
+// Declare a queue and insert the starting vertex.
+// Initialize a visited array and mark the starting vertex as visited.
+// Follow the below process till the queue becomes empty:
+// Remove the first vertex of the queue.
+// Mark that vertex as visited.
+// Insert all the unvisited neighbours of the vertex into the queue.
+
+
+// Time Complexity: O(V+E), where V is the number of nodes and E is the number of edges.
+// Auxiliary Space: O(V)
+
+// BFS algorithm in GoLang
+
 //BFS to print the tree in breadth first fashion
+
 type Tree struct {
     Value  int
     Left   *Tree
