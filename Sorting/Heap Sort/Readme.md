@@ -1,7 +1,9 @@
 ## Introduction
 
 The (binary) heap data structure is an array object that we can view as a nearly complete binary tree. Each node of the tree corresponds to an element of the array. The tree is completely filled on all levels except possibly the lowest, which is filled from the left up to a point.
-![image](https://miro.medium.com/max/828/1*cFSX2SOwZ5ZN4keqHmX00A.png)
+
+![image](https://miro.medium.com/max/786/1*IJDDOZOsFGLpf445qo1XKw.png)
+
 Heap has two different representations:
 
 **Max-heap**<br>
