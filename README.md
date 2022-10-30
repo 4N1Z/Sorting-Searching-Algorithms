@@ -1,6 +1,6 @@
-![Searching and sortinng](https://user-images.githubusercontent.com/91843271/191082254-748a2062-70a5-41b5-80fa-ed0d8681ecb4.png)
+# SEARCHING AND SORTING ALGORITHMS
 
-# Sorting-Searching-Algorithms
+![Searching and sorting](https://user-images.githubusercontent.com/91843271/191082254-748a2062-70a5-41b5-80fa-ed0d8681ecb4.png)
 
 This repo is meant to contain the algorithms for searching and sorting algorithms in every language. As per your knowledge on the programming language of your interest you can contribute/ add the algorithms.
 
@@ -8,7 +8,7 @@ This repo is meant to contain the algorithms for searching and sorting algorithm
 - These algorithms can be used to organize complicated data and make it easier to use as well as to understand. Furthermore, having an understanding of these algorithms and how they work is fundamental for a strong understanding of the *concepts of Computer Science*.
 
 
-### <u>*Sorting Algorithms*</u>
+### *Sorting Algorithms*
 
 Sorting algorithms are ways to organize a group of items from smallest to largest or vice versa. These algorithms can be used to organize complicated data and make it easier to use as well as to understand.
 
@@ -19,23 +19,32 @@ This repository contains the following algorithms in **multiple languages** :
 
 
 ## Searching Algorithms
+- [BFS](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/BFS)
 - [Binary Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Binary-Search)
+- [DFS](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/DFS)
+- [Exponential Search](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Searching/Exponential-Search)
 - [Fibonacci Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Fibonacci%20Search)
 - [Interpolation Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Interpolation-Search)
 - [Jump Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Jump-Search) 
 - [Linear Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Linear-Search)
-- [Exponential Search](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Searching/Exponential-Search)
-
+- [Ternary Search](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Searching/Ternary-Search)
 
 ## Sorting Algorithms
 - [Bogo Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Bogo%20Sort)
+- [Brick Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/BrickSort)
 - [Bubble Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Bubble%20Sort)
 - [Bucket Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Bucket-Sort)
+- [Cocktail Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/Cocktail%20Sort)
+- [Cyclic Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/CyclicSort)
+- [DNF Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/DNF%20Sort)
+- [Heap Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/Heap%20Sort)
 - [Insertion Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Insertion%20Sort)
 - [Merge Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Merge-Sort)
+- [Pancake Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/Pancake%20Sorting)
 - [Quick Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Quick%20Sort)
 - [Radix Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/Radix%20Sort)
 - [Selection Soort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting)
+- [Shell Sort](https://github.com/Jovin247/Sorting-Searching-Algorithms/tree/main/Sorting/Shell%20Sort)
 - [Count Sort](https://github.com/4N1Z/Sorting-Searching-Algorithms/tree/main/Sorting/countsort)
 
 
